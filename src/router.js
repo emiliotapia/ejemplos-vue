@@ -6,6 +6,7 @@ import Eventos from '@/views/Eventos.vue'
 import Componentes from '@/views/ComponentePadre.vue'
 import FiltrosDirectivas from '@/views/FiltrosDirectivas.vue'
 import ComputedWatchers from '@/views/ComputedWatchers.vue'
+import Slots from '@/views/Slots.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -34,6 +35,11 @@ export default new Router({
       path:'/computed-watchers',
       name:'computedWatchers',
       component:ComputedWatchers
+    },
+    {
+      path:'/slots',
+      name:'slots',
+      component:Slots
     },
     {
       path:'/filtros-directivas',

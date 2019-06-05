@@ -2,8 +2,33 @@
   <div class="home">
     <img alt="Vue logo" src="@/assets/logo.png">
 
+
+
     <ul>
-      <li>Rendering / binding / directivas básicas / eventos</li>
+      <router-link :to="{name:'rendering'}">
+        <li>Rendering / binding / directivas básicas</li>
+      </router-link>
+
+      <router-link :to="{name:'eventos'}">
+        <li>Eventos y métodos</li>
+      </router-link>
+
+      <router-link :to="{name:'componentes'}">
+        <li>Componentes</li>
+      </router-link>
+
+      <router-link :to="{name:'slots'}">
+        <li>Slots</li>
+      </router-link>
+
+      <router-link :to="{name:'computedWatchers'}">
+        <li>Computed y Watchers</li>
+      </router-link>
+
+      <router-link :to="{name:'filtrosDirectivas'}">
+        <li>Filtros y directivas propias</li>
+      </router-link>
+
       </ul>
 
   </div>
@@ -27,7 +52,6 @@ ul {
   padding: 0;
 }
 li {
-  display: inline-block;
   margin: 0 10px;
 }
 a {
