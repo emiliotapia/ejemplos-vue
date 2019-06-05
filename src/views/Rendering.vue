@@ -9,7 +9,7 @@
     <h2>Hola {{nombre}}, aquí tienes una lista de anímales</h2>
 
     <ul>
-      <li v-for="animal in animales" @mouseover="selectAnimal(animal)" @mouseleave="resetAnimal()">
+      <li v-for="animal in animales" :key="animal" @mouseover="selectAnimal(animal)" @mouseleave="resetAnimal()">
         {{animal}}
       </li>
     </ul>

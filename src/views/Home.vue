@@ -29,6 +29,9 @@
         <li>Filtros y directivas propias</li>
       </router-link>
 
+      <router-link :to="{name:'transiciones'}">
+        <li>Transiciones</li>
+      </router-link>
       </ul>
 
   </div>
