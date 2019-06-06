@@ -32,6 +32,10 @@
       <router-link :to="{name:'transiciones'}">
         <li>Transiciones</li>
       </router-link>
+
+      <router-link :to="{name:'vuex'}">
+        <li>Vuex</li>
+      </router-link>
       </ul>
 
   </div>

@@ -8,6 +8,8 @@ import FiltrosDirectivas from '@/views/FiltrosDirectivas.vue'
 import ComputedWatchers from '@/views/ComputedWatchers.vue'
 import Slots from '@/views/Slots.vue'
 import Transiciones from '@/views/Transiciones.vue'
+import VuexPaso1 from '@/views/VuexPaso1.vue'
+import VuexPaso2 from '@/views/VuexPaso2.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -51,6 +53,16 @@ export default new Router({
       path:'/transiciones',
       name:'transiciones',
       component:Transiciones,
+    },
+    {
+      path:'/vuex',
+      name:"vuex",
+      component:VuexPaso1
+    },
+    {
+      path:'/vuex-paso2',
+      name:"vuexPaso2",
+      component:VuexPaso2
     }
   ]
 })
