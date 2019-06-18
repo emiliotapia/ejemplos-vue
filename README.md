@@ -1,29 +1,16 @@
-# proyecto-vue
+# Ejemplos de Vue.js para el curso de Diseño UX y Frontend
 
-## Project setup
+## Instalación de dependencias
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Ejecución en modo desarrollo
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Generación para producción
 ```
 npm run build
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
